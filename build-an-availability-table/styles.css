@@ -1,0 +1,77 @@
+:root {
+  --color0: #0C8346;
+  --color1: #8FD5A6;
+  --color2: #a8dadc;
+  --color3: #94BFBE;
+  --color4: #d64550;
+  --color5: #C20114;
+  --dashed-border: 2px dashed#725e54;
+  --solid-border:2px solid  #220C10;
+}
+
+
+ th, td{
+   text-align: center;
+  padding:5px;
+  width:100px;
+  height:20px;
+}
+
+.available-0{
+  background-color: var(--color0);
+
+  
+}
+
+.available-1{
+  background-color: var(--color1);
+
+}
+
+.available-2{
+  background-color: var(--color2);
+
+
+}
+
+.available-3{
+  background-color: var(--color3);
+
+
+}
+
+.available-4{
+  background-color: var(--color4);
+
+}
+
+.available-5{
+  background-color: var(--color5);
+
+}
+
+
+.half td {
+  border-bottom: var(--dashed-border);
+}
+
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+
+
+#legend-gradient {
+  width: 100px;
+  height: 30px;
+  background-image: linear-gradient(
+    to right,
+    var(--color0) 0% 20%,
+    var(--color1) 20% 40%,
+    var(--color2) 40% 60%,
+    var(--color3) 60% 80%,
+    var(--color4) 80% 90%,
+    var(--color5) 90% 100%
+  );
+}
+

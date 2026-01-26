@@ -1,0 +1,114 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Selection Feature Page</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <h1>Feature Selection</h1>
+    <div class="feature-card-container">
+        <label class="feature-card"><input type="checkbox"> <div>
+            <h3>Cyberops asscoiat</h3>
+             <p>Lets become a soc analist</p>
+            </div></label>
+
+
+
+            <label class="feature-card"><input type="checkbox"> <div>
+            <h3>Etical Hacker</h3>
+            <p>Lets become a hacker</p>
+            </div></label>
+
+
+            <label class="feature-card"><input type="checkbox"> <div>
+            <h3>Etical Hacker</h3>
+            <p>Lets become a hacker</p>
+            </div></label>
+
+
+            <label class="feature-card"><input type="checkbox"> <div>
+            <h3>Etical Hacker</h3>
+            <p>Lets become a hacker</p>
+            </div></label>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+input[type="checkbox"]{
+  appearance:none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  align-items: center;
+  border-radius:5px;
+  margin-left: auto;
+  display:flex;
+
+}
+
+input[type="checkbox"]:checked{
+background-color: #274c77;
+border-color: #1d3d62;
+}
+
+
+input[type="checkbox"]:checked::after{
+  content: "✓";
+  color:#fdc500;
+   font-size: 22px;
+}
+
+label:hover{
+  box-shadow: 2px 2px 8px black;
+}
+
+h1,h3,p{
+  text-align:center;
+}
+
+.feature-card-container{
+  margin:0px auto;
+  padding: 20px;;
+  width:100%;
+  height:400px;
+  background-color: #e5e5e5;
+
+}
+
+.feature-card{
+ display:inline-block;
+ border: 2px solid black;
+ cursor: pointer;
+ padding:10px;
+ width:200px;
+ margin:10px;
+ border-radius:8px;
+ 
+}
+
+body{
+  background-color: #dad7cd;
+  width:100vw;
+  height:100vh;
+
+}
+
+** end of styles.css **
+

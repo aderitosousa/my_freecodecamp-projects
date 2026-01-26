@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+    <title>Job Application Form</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="center">Job Aplication Form</h1>
+        <p class="center">Please fill out the form below.</p>
+        <form>
+<hr>
+
+        <label for="name" class="firtslab">Full Name:</label>
+         <input type="text" id="name" placeholder="Evanilson Machado Coelho" required class="firtsinp">
+         
+        <label for="email" class="firtslab">E-mail:</label>
+         <input class="firtsinp" type="email" id="email" placeholder="aderitodourado155@gmail.com" required>
+
+<label for="position" class="firtslab">Position:</label>
+<select required id="position">
+    <option value="">Select position</option>
+    <option value="Network Administrator">Network Administrator</option>
+    <option value="FullStack Senior">FullStack Senior/option>
+    <option value="Angular Expert">Angular Expert</option>
+    <option value="CEO">CEO</option>
+
+</select>
+
+    <fieldset class="radio-group">
+<legend>Availability</legend>
+        <input type="radio" id="full" name="availability" class="availability">
+         <label for ="full">Full-Time</label>
+
+        <input type="radio" id="part" name="availability" class="availability firts">
+         <label for ="part">Part-Time</label>
+
+<legend class="leg">Work Type:</legend>
+        <input type="radio" id="mod" name="availability" class="availability first">
+           <label for ="mod">In-Person</label>
+
+        <input type="radio" id="hibri" name="availability" class="availability second">
+        <label for ="hibri">hybrid</label>
+
+        <input type="radio" id="mod1" name="availability" class="availability second">
+         <label for ="mod1">on-line</label>
+    </fieldset>
+
+
+<p>Why do you want this job?</p>
+<textarea required rows="6" cols="50"placeholder="write your motivation" id="message"></textarea>
+<button type="submit">Submit application</button>
+
+        </form>
+
+
+
+    </div>
+
+
+</body>
+</html>
+

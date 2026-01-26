@@ -1,0 +1,39 @@
+
+a{
+text-decoration:none;
+color:#1a73e8;
+margin-top:20px;
+}
+
+a:visited{
+color:#5a47c5;
+}
+
+a:hover{
+color:#27ae60;
+text-decoration:underline;
+}
+
+a:focus{
+  color:red;
+  outline: 2px solid #ff9900
+}
+
+a:active {
+  color: yellow
+}
+
+legend{
+  text-align:center;
+}
+
+li{
+  margin-bottom:15px;
+}
+
+.normal{
+  padding:5px;
+  background-color:#f2e6d9;
+  color: #4a3428;
+}
+

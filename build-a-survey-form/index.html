@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Survey From</h1>
+      <p id="description">ESte é um questionario de pesquisa, respondao com honestidade, para que possamos melhorar nossos serviços.
+    </header>
+
+    <main>
+
+      <form id="survey-form">
+
+        <fieldset>
+          <legend> Survey-form</legend>
+
+          <label id="name-label">Name:</label>
+          <input 
+          placeholder="input your name"
+          required 
+          id="name" 
+          name="text"
+          type="text">
+
+          <label id="email-label">E-mail:</label>
+          <input 
+          placeholder="input your e-mail"
+          required 
+          id="email" 
+          name="email"
+          type="email">
+
+          <label id="number-label">Age:</label>
+          <input 
+          placeholder="age"
+          required 
+          id="number" 
+          name="age"
+          type="number"
+          min="6"
+          max="100">
+        </fieldset>
+
+        <fieldset>
+          <legend>selected option</legend>
+          <select id="dropdown">
+            <option value="">option1</option>
+            <option value="">option2</option>
+          </select>
+        </fieldset>
+
+
+        <fieldset>
+          <legend>Radio option</legend>
+          <label for="no">yes</label>
+          <input value="yes"name="yes" type="radio">
+          <label for="no">no</label>
+          <input value="no"name="no" type="radio">
+
+          <label for="no">yes</label>
+          <input value="yes"name="yes" type="radio">
+          <label for="no">no</label>
+          <input value="no"name="no" type="radio">
+        </fieldset>
+
+        <fieldset>
+          <legend>Checkbox</legend>
+         
+          <input id="yes" name ="yes" value="yes" type="checkbox">
+           <label for="yes">yes</label>
+           <input id="no"name="no"value ="no" type="checkbox">
+           <label for="no">no</label>
+        </fieldset>
+        
+
+        <fieldset>
+          <label for="submit">caixa de texto</label>
+          <textarea> </textarea>
+          <button id="submit" type="submit">submit</button
+        </fieldset>
+
+
+      </form>
+
+    </main>
+    
+  </body>
+</html>
+

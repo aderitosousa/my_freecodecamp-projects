@@ -1,0 +1,42 @@
+
+
+
+body{
+  background-color:#f4f4f4;
+}
+
+.color-box{
+  width:145px;
+  height:145px;
+  display:inline-block;
+  margin: 20px 10px;
+  border-radius:10px;
+}
+
+.color1{
+  background-color:#0C7C59;
+  margin-left:20px;
+
+}
+
+.color2{
+  background-color:rgb(150, 65, 24);
+
+}
+
+.color3{
+  background-color:cyan;
+
+}
+
+.color4{
+  background-color: hsl(28,90%,7%,0.5);
+}
+
+.color5{
+  background-color:red;
+
+}
+
+
+

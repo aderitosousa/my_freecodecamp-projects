@@ -1,0 +1,111 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#c9d2fc;
+}
+
+#house{
+  margin:auto;
+  top:15em;
+  position:relative;
+  width:500px;
+  height:400px;
+  background-color:#586ba4;
+  border:6px solid #2B303A;
+}
+
+
+#chimney{
+top:-80px;
+right:100px;
+z-index:-1;
+position:absolute;
+width:4em;
+height:5em;
+border:1px solid #000;
+background-color:#3a2618;
+
+}
+
+#roof{
+  top:0;
+z-index:1;
+  position:absolute;
+width:100%;
+height:6em;
+border:1px solid #000;
+background-color:#ff9505;
+}
+
+#window-1{
+  top:150px;
+  left:50px;
+  position:absolute;
+width:7em;
+height:5em;
+border:5px solid #000;
+background-color:#f2ccc3;
+}
+
+#window-2{
+  top:150px;
+  right:50px;
+  position:absolute;
+width:7em;
+height:5em;
+border:5px solid #000;
+background-color:#f2ccc3;
+}
+
+#door{
+  left:220px;
+  position:absolute;
+  bottom:0px;
+width:5em;
+height:7em;
+border:4px solid #000;
+background-color:#997b66;
+}
+
+.center-win{
+ width:5px;
+ height:100%;
+background-color:#000;
+margin:auto;
+
+}
+
+#macaneta{
+  position:absolute;
+  right:0;
+  top:2em;
+width:7px;
+height:7px;
+border-radius:100%;
+background-color:#000;
+}
+
+.line-roof{
+  display:inline-block;
+  margin:0 10px;
+ width:5px;
+ height:100%;
+background-color:#000;
+transform:rotate(-5deg);
+
+}
+
+.line{
+  display:inline-block;
+  margin:0 0px;
+ width:5px;
+ height:100%;
+background-color:#000;
+transform:rotate(-5deg);
+
+}
+
+

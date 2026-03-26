@@ -1,0 +1,191 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+
+h1, h2, h2{
+  font-family:'Poppins',Montserrat,sans-serif,Inter;
+}
+
+h1{
+  color: #333;
+  font-size: 2.5rem; 
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a {
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #0077ff;
+  transition: 0.3s;
+  }
+
+a:hover {
+  color: #0056b3;
+}
+
+
+p{
+  font-family:'Roboto',Open Sans,Inter;
+}
+
+body {
+  max-width: 1200px; 
+  margin:0 auto; 
+  padding: 0 20px; 
+  display:grid;
+  min-height: 100vh;
+background-color:#F2EAE4;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer ";
+grid-template-rows: auto 1fr auto;  
+align-items:center;
+gap:10px;
+}
+
+main h2{
+  color:#4981F2;
+}
+
+#project-section{
+  padding:10px;
+  border-radius:5px;
+  background-color:#262626;
+  color:#99B6F2;
+
+}
+
+#div-projet{
+  padding:10px;
+  gap: 15px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+article{
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+}
+
+#footer{
+  grid-area:"footer";
+  text-align:center;
+  font-size: 0.9rem;
+  color: #777;
+  
+}
+
+footer a {
+  font-size: 0.85rem;
+  position:relative;
+}
+
+footer a:hover {
+  top:5px;
+ transform:scale(1.5);
+ transition:1s;
+ 
+}
+
+#div_contact{
+  display:flex;
+  gap:20px;
+  border: 2px solid black;
+  justify-content:center;
+
+}
+
+header{
+  background-color:#262626;
+  padding:10px;
+  grid-area:"header";
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#welcome-section{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+  grid-area:main;
+  gap:15px;
+}
+
+img{
+  width:300px;
+  height:200px;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  #div-projet {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+}
